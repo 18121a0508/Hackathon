@@ -1,0 +1,129 @@
+body{
+    background-color: white;
+    font-family: 'SF Pro',sans-serif;
+    text-align: center;
+}
+img {
+    width: 48%;
+}
+a,
+a label {
+    cursor: pointer;
+}
+#email{
+    margin-right: 50px;
+}
+
+#passwords{
+    margin-right: 20px;
+}
+
+
+.image-centre
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+h1{
+    text-align:center;
+}
+
+form{
+    width:35rem;
+    margin:auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type=email],input[type=password],input[type = "text"]{
+    width: auto;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+
+
+#forgotpswId
+{
+  text-decoration: none;
+}
+
+#sign-up-anchor
+{
+  text-decoration: none;
+}
+  
+  .forgotPassword
+  {
+    margin-top: -4%;
+    margin-left: 34%;
+    font-size: 14px;
+  }
+
+  #showForgotPassword{
+display:flex;
+  }
+
+  .showPassword{
+    
+    margin-left: 22%;
+    margin-right: 10%;
+  }
+  
+
+
+.rememberMe {
+    text-align: left;
+    margin-left: 22%;
+}
+
+  @media handheld, only screen and (max-width: 1024px) 
+  {
+      /*Style goes here*/
+  }
+
+
+button
+{
+    background-color:rgba(0,112,205,255);
+    border-color: rgba(0,112,205,255);
+    color: #fff;
+    padding:0px 20px;
+    border-radius:5px;
+    height: 35px;
+    margin:7px 0;
+    width:auto;
+}
+
+
+button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  #or{
+    width: 60%; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin-left: 20%; 
+} 
+  
+ #or span {
+    background: #fff;
+    padding: 0 3%;
+ } 
+
+  #googleIcon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+.required-field::after {
+    content: "*";
+    color: red;
+  }

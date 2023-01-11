@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js" ></script>
+</head>
+<body>
+    
+    <img src="\innova.png" alt="Innova Solutions"   class="image-centre">
+        
+        <form id="form" action="/">
+            
+            <div class="emailclass">
+                <label for="Email" id = "email">Email<span class="required-field"></span></label>
+                <input id="Email" name="Email" type="email" placeholder="email@gmail.com" required>
+                <div class="error"></div>
+            </div>  
+              
+            <br>
+            
+            
+            <div class="passwordclass">
+                <label for="password" required class="col-sm-2" id = "passwords">Password<span class="required-field"></span></label>
+                <input id="password" name="psw" type="password" placeholder="Enter password" required>
+                <br><br>
+                <div class="error"></div>
+            </div>
+
+            <!-- <div class="showPassword">
+                <input  type="checkbox" onclick="myFunction()"> Show Password
+            
+            </div> -->
+                   
+            <div class="forgotPassword">
+                <a href="#" id="forgotpswId">Forgot Password?</a>
+                <div class="error"></div>
+            </div>
+
+            <!-- <div class = "rememberMe"> 
+                
+                <label >
+                    <input  type="checkbox" name="remember"> 
+                    Remember me
+                </label>
+            </div> -->
+            <br>
+            <div class="submitclass">
+            <button type="submit">Log in</button>
+            <div class="error"></div>
+            </div>
+            
+            <div id = "signWithGoogle">
+                <p id = "or"><span>OR</span></p>
+                <a href = "https://imagecolorpicker.com/en">
+                <img id = "googleIcon" src = "/google.png">
+            </a>
+            </div>
+            
+
+            <div class="Registerclass">
+                <p class="Register">Not a member?&nbsp<a id="sign-up-anchor" href="#">sign up</a></p>
+                <div class="error"></div>
+            </div>
+
+        </form>
+</body>
+</html>
